@@ -1,0 +1,8 @@
+[
+    { "name": "BrownRice",       "fat": 1.94,  "carbs": 51.20,   "protien": 5.48,   "calories": 246,   "image": "assets/images/BrownRice.png" },
+    { "name": "CurdRice",        "fat": 5.07,  "carbs": 3.99,    "protien": 13.12,  "calories": 116,   "image": "assets/images/CurdRice.jpg" },
+    { "name": "Pan Cake",        "fat": 2.65,  "carbs": 11.23,   "protien": 2.70,   "calories": 80,    "image": "assets/images/BrownRice.png" },
+    { "name": "GrilledChicken",  "fat": 7.33,  "carbs": 1.55,    "protien": 8.82,   "calories": 109,   "image": "assets/images/GrilledChicken.jpg" },
+    { "name": "peas",            "fat":0.58,   "carbs": 20.95,   "protien": 7.86,   "calories": 117,   "image": "assets/images/Peas.jpg" },
+    { "name": "rotiesabzi",      "fat": 16.73, "carbs": 46.40,   "protien": 16.17,  "calories": 399,   "image": "assets/images/rotiesabzi.jpg" }
+  ]

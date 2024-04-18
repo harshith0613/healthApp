@@ -1,0 +1,36 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: -ms-grid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float: left;
+    background-color: aliceblue;
+    transition: transform 0.3s;
+    position: relative;
+    column-gap: 30%;
+    align-content: space-around;
+}
+
+.image {
+    width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.nutrition-label {
+    color: #888;
+}
+
+.food-name {
+    position: relative;
+}
+
+.btn:hover {
+    display: inline-block;
+    
+}

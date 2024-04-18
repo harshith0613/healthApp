@@ -1,0 +1,26 @@
+
+<div class="container">
+<table class="table table-hover table-striped table-bordered "[@myAnimation]="{value: 'visible', params: { duration: '300ms' }}">
+    <thead>
+        <tr align="center">
+            <th class="bg-info text-white">ItemName</th>
+            <th class="bg-info text-white">ItemCalories</th>
+            <th class="bg-info text-white">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of  DietItems" align="center">
+            <td>{{product.name}}</td>
+            <td>{{product.calories  }}</td>
+            <td><button (click)="DeleteDietItem(product)"><span ><i class="bi bi-trash"></i></span></button></td>
+        </tr >
+        <tr  align="center">
+          <td>Total Calories</td>
+          <td >{{Totalcalories}}
+          </td>
+          <!-- <td>{{totalProtien}}</td> -->
+
+        </tr>
+    </tbody>
+</table>    
+</div>

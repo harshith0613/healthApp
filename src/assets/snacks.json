@@ -1,0 +1,10 @@
+[
+    { "name": "fruitsalad", "fat": 0.15, "carbs": 22, "protien": 2, "calories": 80, "image": "assets/images/FruitSalad.jpg" },
+    { "name": "Avocado", "fat": 21, "carbs": 12.81, "protien": 3.21, "calories": 240, "image": "assets/images/avacado.jpeg" },
+    { "name": "DarkChocolate", "fat": 14, "carbs": 15, "protien": 4, "calories": 150, "image": "assets/images/DarkChocolate.jpg" },
+    { "name": "SlicedCucumber", "fat": 1.02, "carbs": 3.7, "protien": 0.7, "calories": 16, "image": "assets/images/SlicedAvocado.jpg" },
+    { "name": "Nuts", "fat": 14, "carbs":6, "protien": 3, "calories": 150, "image": "assets/images/NUTS.jpg" },
+    { "name": "RiceCake", "fat": 0, "carbs": 8, "protien": 1, "calories": 35, "image": "assets/images/RiceCake.jpg" },
+    { "name": "WholeGrainBiscuits", "fat": 4, "carbs": 21, "protien": 4, "calories": 128, "image": "assets/images/WholeGrainBiscuits.jpg" },
+    { "name": "Yogurt", "fat": 0, "carbs": 15, "protien": 3, "calories": 150, "image": "assets/images/Yogurt.jpg" }
+  ]
