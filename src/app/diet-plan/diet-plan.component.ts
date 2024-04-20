@@ -32,11 +32,11 @@ export class DietPlanComponent {
   DietItems: any;
   Totalcalories: any;
   totalProtien: any;
-
+  table: boolean = true;
   constructor(private service: HealthService) {
     this.DietItems = service.GetDietItems();
     this.calculateTotalCalories();
-    // this.calculateTotalProtien();
+    console.log("items"+this.DietItems);
   }
 
   calculateTotalCalories() {
@@ -54,6 +54,13 @@ export class DietPlanComponent {
   //   console.log(this.Totalcalories);
 
   // }
+
+  check(){
+    if(this.DietItems > 0)
+      this.table = true;
+    
+  }
+
 
 
   DeleteDietItem(data: any) {

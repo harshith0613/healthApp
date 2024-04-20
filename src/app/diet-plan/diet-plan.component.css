@@ -16,4 +16,41 @@
     border-radius: 5px;
     padding: 10px;
   }
+
+  .card{
+    height: 70vh;
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid gray;
+  }
+  
+  .cart-title{
+    text-align: center;
+    color: black;
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .center img{
+    color: inherit;
+    height: 300px;
+  }
+
+  .emptyCart-btn{
+    background-color: white;
+    border:2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .emptyCart-btn:hover{
+    background-color: #efffda;
+
+  }
   
